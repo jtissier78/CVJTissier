@@ -10,37 +10,34 @@
     </head>
     <body>
         <header>
-            <p id="btnMenu" class="bouton">Menu</p>
-            <p id="btnCV" class="btnWeb">Mon CV</p>
-            <p id="btnPorteFolio" class="btnWeb">Mes Créations</p>
-            <div class="btnAccDev">
-                <p class="nom">Julien Tissier<br>
-                Développeur web/web mobil<br>
-                fullstack</p>
-            </div>
-            <p id="siteWeb" class="btnWeb">Mes sites web</p>
-            <p id="headResSo" class="btnWeb btnResSo">Me suivre</p>
-            <p id="contact" class="bouton">Me contacter</p>
-            
+            <p id="pres-id"><span class="nom">Julien Tissier</span><br>
+                4 les vignes de l'Aubray <br> 
+                18500 Berry-Bouy<br>
+                Tel : <a href="tel:+33 58 33 82 14"> 06.58.33.82.14</a><br>
+                @: <a href="mailto:jtissier78@gmail.com">jtissier78@gmail.com</a><br>
+                né le 05 Février 1988
+            </p>
+                 
+            <p id="pres-descr">En cours de Formation pour obtenir le titre de Développeur web/web-mobile (titre de niveau III) au seins du centre de formation aformac.</p>
+           
         </header>
         <main>
-            <section id="Presentation">
-                
-                    <p id="pres-id"><span class="nom">Julien Tissier</span><br>
-                        4 les vignes de l'Aubray <br> 
-                        18500 Berry-Bouy<br>
-                        Tel : <a href="tel:+33 58 33 82 14"> 06.58.33.82.14</a><br>
-                        @: <a href="mailto:jtissier78@gmail.com">jtissier78@gmail.com</a><br>
-                        né le 05 Février 1988
-                    </p>
-                
-                
-                    <p id="pres-descr">En cours de Formation pour obtenir le titre de Développeur web/web-mobile (titre de niveau III) au seins du centre de formation aformac.</p>
-                
-            </section>
+            
+            <nav>
+                <ul>
+                    <li class="navBar-Item">Menu</li>
+                    <li class="navBar-Item">Mon CV</li>
+                    <li class="navBar-Item">Mes Créations</li>
+                    <li class="navBar-Item">Julien Tissier <br>
+                    Développeur web/web-Mobil<br>
+                    junior fullstack</li>
+                    <li class="navBar-Item">Me Suivre</li>
+                    <li class="narBar-item">Me Contacter</li>
+                </ul>
+            </nav>          
 
             <section id="principal">
-                <ul id="friseChrono">
+                <ul id="timeline">
                     <li class="timeline-item"> <!--Dev wev-->
                         <p class="timeline-item-date">Sept 2019 à Mars 2020</p>
                         <div class="timeline-item-details">
@@ -269,41 +266,44 @@
                 </ul>
                 
                 <div id="capacite">
-                    <div id="competence">
+                    <div id="competence" class="bloc-Capacite">
                         <p class="bloc-titre">Mes Compétences</p> 
-                        <ul>  
-                            <li class="competence-item comp-WPrep">  <!--Travail Prep-->
-                                <p class="comptence-item-titre">Travail Préparatoire à la création de site</p>
-                                <p class="competence-item-niv"></p>
-                            </li>
-                            <li class="competence-item comp-ProgWeb">  <!--Prog web-->
-                                <p class="comptence-item-titre">Programmation web/web-mobile Full-stack</p>
-                                <p class="competence-item-niv"></p>
-                            </li>
-                            <li class="competence-item">  <!--prog Objet-->
-                                <p class="comptence-item-titre">Programmation orienté Objet</p>
-                                <p class="competence-item-niv"></p>
-                            </li>
-                            <li class="competence-item comp-Agile">  <!--Méthode agile-->
-                                <p class="comptence-item-titre">Méthode Agile</p>
-                                <p class="competence-item-niv"></p>
-                            </li>
-                            <li class="competence-item">  <!--Apprentissage-->
-                                <p class="comptence-item-titre">Facilité d'aprentissage</p>
-                                <p class="competence-item-niv"></p>
-                            </li>
-                            <li class="competence-item">  <!--Management-->
-                                <p class="comptence-item-titre">Management</p>
-                                <p class="competence-item-niv"></p>
-                            </li>
-                            <li class="competence-item">  <!--Relation-->
-                                <p class="comptence-item-titre">Relation Client</p>
-                                <p class="competence-item-niv"></p>
-                            </li>
-                        </ul>
+                        <div class="bloc-Capa-content">
+                            <ul>  
+                                <li class="competence-item comp-WPrep">  <!--Travail Prep-->
+                                    <p class="comptence-item-titre">Travail Préparatoire à la création de site</p>
+                                    <p class="competence-item-niv"></p>
+                                </li>
+                                <li class="competence-item comp-ProgWeb">  <!--Prog web-->
+                                    <p class="comptence-item-titre">Programmation web/web-mobile Full-stack</p>
+                                    <p class="competence-item-niv"></p>
+                                </li>
+                                <li class="competence-item">  <!--prog Objet-->
+                                    <p class="comptence-item-titre">Programmation orienté Objet</p>
+                                    <p class="competence-item-niv"></p>
+                                </li>
+                                <li class="competence-item comp-Agile">  <!--Méthode agile-->
+                                    <p class="comptence-item-titre">Méthode Agile</p>
+                                    <p class="competence-item-niv"></p>
+                                </li>
+                                <li class="competence-item">  <!--Apprentissage-->
+                                    <p class="comptence-item-titre">Facilité d'aprentissage</p>
+                                    <p class="competence-item-niv"></p>
+                                </li>
+                                <li class="competence-item">  <!--Management-->
+                                    <p class="comptence-item-titre">Management</p>
+                                    <p class="competence-item-niv"></p>
+                                </li>
+                                <li class="competence-item">  <!--Relation-->
+                                    <p class="comptence-item-titre">Relation Client</p>
+                                    <p class="competence-item-niv"></p>
+                                </li>
+                            </ul>
+                            <img src="" alt="Graph de niveau">
+                        </div>
                     </div>
 
-                    <div id="informatique">
+                    <div id="informatique" class="bloc-Capacite">
                         <p class="bloc-titre">Outils Informatiques</p>
                         <section id="logiciel" class="info-Section">
                             <p class="sousBloc-titre">Logiciels et outils</p>
@@ -377,7 +377,7 @@
                         </section>
                     </div>
 
-                    <div id="langue">
+                    <div id="langue" class="bloc-Capacite">
                         <p class="bloc-titre">Langues</p>
                         <ul>
                             <li>
@@ -411,7 +411,7 @@
                         </ul>
                     </div>
 
-                    <div id="centreInteret">
+                    <div id="centreInteret" class="bloc-Capacite">
                         <p class="bloc-titre">Mes Centres d'interêts</p>
                         <ul>
                             <li>Informatique</li>
@@ -426,7 +426,7 @@
                         </ul>
                     </div>
 
-                    <div id="qualite">
+                    <div id="qualite" class="bloc-Capacite">
                         <p class="bloc-titre">Mes Qualité</p>
                         <ul>
                             <li>Dynamique</li>

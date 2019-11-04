@@ -1,146 +1,98 @@
 /*sass --watch style.scss ../style.css*/
 
 $arounBcgColor : rgb(232, 252, 254);
-body{
-
-    ul{
-        list-style: none;
-    }
-
-    p{
-        font-size: 2vw;
-    }
-
-    .nom{ 
-        text-align: center;
-    }
-
-    header{
-        display: flex;
-        background-color:$arounBcgColor;
-        justify-content: space-between;
-        
-        
-
-        .btnWeb{
-            display : none;
-            
-        }
-    }
-
-    main{
-        
-        #Presentation{
-            
-            text-align: center;
-            
-            #pres-id{
-                
-            }
-        }
-
-        #principal{
-            display: flex;
-            //margin-left : 15vw;
-
-            .timeline-item{
-
-                display: flex;
-
-                .timeline-item-date{
-                    left : -3vw;
-                    position: relative;
-                    word-wrap: wrap;
-                    width : 12vw;
-                }
-
-                .timeline-item-details-marker {
-                    position: relative;
-                    z-index: 10;
-                    border-radius: 50%;
-                    background-color: #3F51B5;
-                    width: 32px;
-                    height: 32px;
-                    border: 3px solid #FFF;
-                    margin-left: 74px;
-                    transition: transform .3s, background-color .3s;
-                }
-
-                .timeline-item-details{
-                    
-                    display: none;
-
-                    .timeline-item-titre{
-                        font-size: 2.5vw ;
-                    }
-                }
-            }
-        }
-
-    }
-    
-    
-    
-    
-
-    footer{
-        display: flex;
-        background-color: $arounBcgColor;
-        justify-content: space-between;
-    }
-}
-
-
-
+$fontSizeInit : 1vw;
+$heightpage:82vh;
 @media(min-width : 720px){
+   
     body{
-        ul{}
+        background-color:$arounBcgColor;
+        ul{
+            list-style: none;
+        }
 
         p{
-            font-size :15px;
+            font-size: $fontSizeInit;
         }
 
-        .nom{}
+        .nom{ 
+            text-align: center;
+        }
 
         header{
+            display: flex;
+            background-color:$arounBcgColor;
+            
 
-            .btnWeb{
-                display: unset;
+            #pres-id{
+                width: 35%;
             }
+
+
         }
 
         main{
+            
 
-            #Presentation{
-
+            nav{
+                padding-right: 25%;
+                background-color: rgb(25, 214, 231);
+                ul{
                 display: flex;
+                justify-content: space-between;
+                align-items: center;
 
-                #pres-id{
-                    width: 40%;
+                li{text-align: center;}
                 }
             }
-
             #principal{
-                .timeline-item{
-                    .timeline-item-date{
-                        max-width: 90px;
-                    }
+                display: flex;
+                margin-left : 2vw;
+                
+                
+                #timeline{
+                    max-height: $heightpage;
+                    overflow-y: auto;
+                    width: 40%;
+                    .timeline-item{
+
+                        display: flex;
+
+                        .timeline-item-date{
+                            
+                            position: relative;
+                            word-wrap: wrap;
+                            width : 6vw;
+                        }
+
+                        
+
                     .timeline-item-details{
-                        display: block;
-                        left: 10vw;
-                        .timeline-item-titre{
-                            left: 150px;
+
+                            /* display: none; */
+
+                            .timeline-item-titre{
+                                font-size: 2.5vw ;
+                            }
                         }
                     }
                 }
-            }
 
+                #capacite{
+                    max-height: $heightpage;
+                    width: 60%;
+                    overflow-y: auto;
+                    .bloc-Capa-content{
+                        display: flex;
+                    }
+                }
+            }
         }
 
-        footer{}
+        footer{
+            display: flex;
+            background-color: $arounBcgColor;
+            justify-content: space-between;
+        }
     }
-
-    
-    
 }
-

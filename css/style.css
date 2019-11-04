@@ -1,81 +1,71 @@
 /*sass --watch style.scss ../style.css*/
-body ul {
-  list-style: none;
-}
-body p {
-  font-size: 2vw;
-}
-body .nom {
-  text-align: center;
-}
-body header {
-  display: flex;
-  background-color: #e8fcfe;
-  justify-content: space-between;
-}
-body header .btnWeb {
-  display: none;
-}
-body main #Presentation {
-  text-align: center;
-}
-body main #principal {
-  display: flex;
-}
-body main #principal .timeline-item {
-  display: flex;
-}
-body main #principal .timeline-item .timeline-item-date {
-  left: -3vw;
-  position: relative;
-  word-wrap: wrap;
-  width: 12vw;
-}
-body main #principal .timeline-item .timeline-item-details-marker {
-  position: relative;
-  z-index: 10;
-  border-radius: 50%;
-  background-color: #3F51B5;
-  width: 32px;
-  height: 32px;
-  border: 3px solid #FFF;
-  margin-left: 74px;
-  transition: transform 0.3s, background-color 0.3s;
-}
-body main #principal .timeline-item .timeline-item-details {
-  display: none;
-}
-body main #principal .timeline-item .timeline-item-details .timeline-item-titre {
-  font-size: 2.5vw;
-}
-body footer {
-  display: flex;
-  background-color: #e8fcfe;
-  justify-content: space-between;
-}
-
 @media (min-width: 720px) {
+  body {
+    background-color: #e8fcfe;
+  }
+  body ul {
+    list-style: none;
+  }
   body p {
-    font-size: 15px;
+    font-size: 1vw;
   }
-  body header .btnWeb {
-    display: unset;
+  body .nom {
+    text-align: center;
   }
-  body main #Presentation {
+  body header {
     display: flex;
+    background-color: #e8fcfe;
   }
-  body main #Presentation #pres-id {
+  body header #pres-id {
+    width: 35%;
+  }
+  body main nav {
+    padding-right: 25%;
+    background-color: #19d6e7;
+  }
+  body main nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  body main nav ul li {
+    text-align: center;
+  }
+  body main #principal {
+    display: flex;
+    margin-left: 2vw;
+  }
+  body main #principal #timeline {
+    max-height: 82vh;
+    overflow-y: auto;
     width: 40%;
   }
-  body main #principal .timeline-item .timeline-item-date {
-    max-width: 90px;
+  body main #principal #timeline .timeline-item {
+    display: flex;
   }
-  body main #principal .timeline-item .timeline-item-details {
-    display: block;
-    left: 10vw;
+  body main #principal #timeline .timeline-item .timeline-item-date {
+    position: relative;
+    word-wrap: wrap;
+    width: 6vw;
   }
-  body main #principal .timeline-item .timeline-item-details .timeline-item-titre {
-    left: 150px;
+  body main #principal #timeline .timeline-item .timeline-item-details {
+    /* display: none; */
+  }
+  body main #principal #timeline .timeline-item .timeline-item-details .timeline-item-titre {
+    font-size: 2.5vw;
+  }
+  body main #principal #capacite {
+    max-height: 82vh;
+    width: 60%;
+    overflow-y: auto;
+  }
+  body main #principal #capacite .bloc-Capa-content {
+    display: flex;
+  }
+  body footer {
+    display: flex;
+    background-color: #e8fcfe;
+    justify-content: space-between;
   }
 }
 
