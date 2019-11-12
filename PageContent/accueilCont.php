@@ -1,0 +1,1 @@
+<p>Ceci est le contenu de l'accueil</p>
