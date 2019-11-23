@@ -2,7 +2,7 @@
 <ul id="GenInfo-bloc">
     <li class="BlocInfoGen-Content">
         <div class="BlocInfoGen-Content-Logo">
-            <img src="" alt="<?php echo $lang['GenInfo']['alt']['Logo-Name'];?>" class="Logo">
+            <img src="img/IconId.png" alt="<?php echo $lang['GenInfo']['alt']['Logo-Name'];?>" class="Logo">
         </div>
         <div class="BlocInfoGen-Content-Texte"><?php echo $lang['GenInfo']['Name']; ?> : <span class="InfoGenerale">Julien Tissier</span></div>
     </li>
@@ -39,7 +39,7 @@
     <li class="BlocInfoGen-Content"><ul>
         <li><a href="" class="BlocOnfoGen-Content-Logo"><img src="" alt="Logo Facebook" class="Logo"></a></li>
         <li><a href="" class="BlocOnfoGen-Content-Logo"><img src="" alt="Logo LinkedIn" class="Logo"></a></li>
-        <li><a href="" class="BlocOnfoGen-Content-Logo"><img src="" alt="Logo GitHub" class="Logo"></a></li>
+        <li><a href="" class="BlocOnfoGen-Content-Logo"><img src="img/GitHub-Mark-32px.png" alt="Logo GitHub" class="Logo"></a></li>
         <li><a href="" class="BlocOnfoGen-Content-Logo"><img src="" alt="Logo StackOverFlow" class="Logo"></a></li>
         <li><a href="" class="BlocOnfoGen-Content-Logo"><img src="" alt="Logo OpenClassroom" class="Logo"></a></li>
         <li><a href="" class="BlocOnfoGen-Content-Logo"><img src="" alt="Logo Codeur.com" class="Logo"></a></li>

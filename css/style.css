@@ -21,5 +21,8 @@ body main #Main-Bloc #InfoGen img {
 body main #Main-Bloc #InfoGen ul li {
   list-style: none;
 }
+body main #Main-Bloc #InfoGen ul li .BlocOnfoGen-Content-Logo {
+  width: 32px;
+}
 
 /*# sourceMappingURL=style.css.map */
