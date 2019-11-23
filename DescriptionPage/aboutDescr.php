@@ -1,1 +1,3 @@
-<p>Ceci est la description de about</p>
+<div class="Description-bloc">
+    <p> <?php echo $lang['Descritpion']['About'];?> </p>
+</div> 

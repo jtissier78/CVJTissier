@@ -1,3 +1,25 @@
 /*sass --watch style.scss ../style.css*/
+body main #navBar nav ul {
+  padding: auto;
+  display: flex;
+  justify-content: space-between;
+}
+body main #navBar nav ul li {
+  list-style: none;
+  background-color: #3b8eec;
+}
+body main #Main-Bloc {
+  display: flex;
+}
+body main #Main-Bloc #InfoGen {
+  width: 25%;
+  background-color: #e8fcfe;
+}
+body main #Main-Bloc #InfoGen img {
+  width: 100%;
+}
+body main #Main-Bloc #InfoGen ul li {
+  list-style: none;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -3,3 +3,54 @@
 $arounBcgColor : rgb(232, 252, 254);
 $fontSizeInit : 1vw;
 $heightpage:82vh;
+
+body{
+
+    header{
+
+    }
+
+    
+    main{
+        
+        #navBar{
+            nav{
+                ul{
+                    padding:  auto;
+                    display: flex;
+                    justify-content: space-between;
+
+                    li{
+                        list-style: none;
+                        background-color: rgb(59, 142, 236);
+                    }
+                }
+            }
+        }
+        #Main-Bloc{
+            display: flex;
+            #InfoGen{
+                width: 25%;
+                background-color: $arounBcgColor;
+                img{
+                    width: 100%;
+                }
+
+                ul{
+                    li{
+                        list-style: none;
+                    }
+                }
+            }
+
+            #PageContent{
+
+            }
+        }
+    }
+
+    footer{
+
+    }
+
+}
