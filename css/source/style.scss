@@ -23,6 +23,8 @@ body{
                     li{
                         list-style: none;
                         background-color: rgb(59, 142, 236);
+                        padding: 1.7%;
+                        border-radius: 10%;
                     }
                 }
             }
@@ -32,8 +34,13 @@ body{
             #InfoGen{
                 width: 25%;
                 background-color: $arounBcgColor;
-                img{
-                    width: 100%;
+                .BlocInfoGen-Content{
+                    display: flex;
+
+                    ul{
+                        display: flex;
+                    }
+                    
                 }
 
                 ul{
@@ -41,7 +48,10 @@ body{
                         list-style: none;
 
                         .BlocOnfoGen-Content-Logo{
-                            width: 32px;
+                            
+                            img{
+                                width : 10%;
+                            }
                         }
                     }
                 }
