@@ -1,1 +1,0 @@
-<p>Ceci est la description de l'accueil.</p>
