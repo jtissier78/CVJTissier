@@ -5,7 +5,7 @@
     <?php require_once "template/head.php";?>
     <body>
 
-    <header id="descriptionPage"></header>
+    <header id="descriptionPage"><?php echo $lang['Descritpion']['About']; ?></header>
 
     <main>
         <aside id="CVDownload"></aside>
@@ -17,7 +17,7 @@
         <div id="lineDown">
             <?php require_once "template/InfoGen.php"; ?>
 
-            <div id="Content"></div>
+            <div id="Content"><?php require_once "template/About.php" ?></div>
 
         </div>
     </main>

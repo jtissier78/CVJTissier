@@ -84,6 +84,3 @@
 </div>
 
 
-<div id="Description" class="Description-bloc">
-    <p> <?php echo $lang['Descritpion']['About'];?> </p>
-</div> 
