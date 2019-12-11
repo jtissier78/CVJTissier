@@ -20,7 +20,17 @@
                 <div class=Skills-Detail-Bloc>
                     <h5 class="Skills-Detail-Title">
                         <?php echo $lang['About-Content']['Skills']['Prog-Lang-Title']; ?>
-                    </h5>                
+                    </h5>
+                    <ul id="Prog-Langage" class="Skills-Title">
+                        <li class="Prog-Langage-Item">HTML</li>
+                        <li class="Prog-Langage-Item">PHP</li>
+                        <li class="Prog-Langage-Item">CSS</li>
+                        <li class="Prog-Langage-Item">JS</li>
+                        <li class="Prog-Langage-Item">JAVA</li>
+                        <li class="Prog-Langage-Item">C++</li>
+                        <li class="Prog-Langage-Item">VBA</li>
+                        <li class="Prog-Langage-Item">Latex</li>
+                    </ul>             
                 </div>
                 <!-- Skills Logiciels -->
                 <div class=Skills-Detail-Bloc>
