@@ -12,6 +12,13 @@ Title of the page
 ----------------------------------------------------------------------------------------------------------------*/
 $lang['Page-Title']['About']="CV J.Tissier";
 /*----------------------------------------------------------------------------------------------------------------
+Header
+----------------------------------------------------------------------------------------------------------------*/
+$lang['header']['Title']="Site CV de Julien Tissier";
+$lang['header']['Sub-Title']="Developpeur Informatique sur Bourges";
+$lang['header']['Content']="Passionné de mathématiques depuis toujours, j'ai découvert la programmation durant mes années universitaires. Après quelques détours dans le monde du commerce, la volonté de créer mes propres outils informatiques, m'a emmené à chercher à aprofondir mes connaissances. C'est ainsi que je me suis retrouvé à passer le titre Developpeur Web/Web-Mobil.";
+$lang['header']['Contact']="Contactez Moi";
+/*----------------------------------------------------------------------------------------------------------------
 NavBar
 ----------------------------------------------------------------------------------------------------------------*/
 $lang['NavBar']['About']="A Propos";
@@ -59,7 +66,7 @@ $lang['About-Content']['Sub-Title']="Julien Tissier";
 About Content Descritpion
 ----------------------------------------------------------------------------------------------------------------*/
 $lang['About-Content']['Description']['Title']="Une rapide description de votre développeur.";
-$lang['About-Content']['Description']['Text']="<p>Passionné de mathématiques depuis toujours, j'ai découvert la programmation durant mes années universitaires. <br>Après quelques détours dans le monde du commerce, la volonté de créer mes propres outils informatiques, m'a emmené à chercher à aprofondir mes connaissances. <br>C'est ainsi que je me suis retrouvé à passer le titre Developpeur Web/Web-Mobil.<p>";
+$lang['About-Content']['Description']['Text']="<p><p>";
 /*----------------------------------------------------------------------------------------------------------------
 About Content Skills
 ----------------------------------------------------------------------------------------------------------------*/
