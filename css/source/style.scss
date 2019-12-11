@@ -1,6 +1,15 @@
 /*sass --watch style.scss ../style.css*/
 
-$arounBcgColor : rgb(232, 252, 254);
+$classic-Blue : #34558b;
+$Bicay-Green : #4ec5a5;
+$Orange-Peel: #fd823e;
 $fontSizeInit : 1vw;
 $heightpage:82vh;
 
+#Information{
+    background-color: $Bicay-Green;
+
+    h1{
+        margin-top: 0%;
+    }
+}
