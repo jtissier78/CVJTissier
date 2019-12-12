@@ -22,12 +22,12 @@
                         <?php echo $lang['About-Content']['Skills']['Prog-Lang-Title']; ?>
                     </h5>
                     <ul id="Prog-Langage" class="Skills-List">
-                        <li class="Prog-Langage-Item">HTML</li>
-                        <li class="Prog-Langage-Item">PHP</li>
-                        <li class="Prog-Langage-Item">CSS</li>
-                        <li class="Prog-Langage-Item">JS</li>
-                        <li class="Prog-Langage-Item">JAVA</li>
-                        <li class="Prog-Langage-Item">C++</li>
+                        <li class="Prog-Langage-Item"><i class="fab fa-html5"></i></li>
+                        <li class="Prog-Langage-Item"><i class="fab fa-php"></i></li>
+                        <li class="Prog-Langage-Item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="Prog-Langage-Item"><i class="fab fa-js"></i></li>
+                        <li class="Prog-Langage-Item"><i class="fab fa-java"></i></li>
+                        <li class="Prog-Langage-Item"><img src="img/C++.svg" alt="Logo LinkedIn" class="Logo"></li>
                         <li class="Prog-Langage-Item">VBA</li>
                         <li class="Prog-Langage-Item">Latex</li>
                     </ul>             
@@ -38,11 +38,11 @@
                         <?php echo $lang['About-Content']['Skills']['Prog-Log-Title']; ?>
                     </h5>
                     <ul id="Log" class="Skills-List">
-                        <li class="Log-Item">Visual Studio Code</li>
-                        <li class="Log-Item">GitKraken</li>
-                        <li class="Log-Item">Adobe XD</li>
-                        <li class="Log-Item">Eclipse</li>
-                        <li class="Log-Item">JGrasp</li>
+                        <li class="Log-Item"><img src="img/VSC.svg" alt="Logo LinkedIn" class="Logo"></li>
+                        <li class="Log-Item"><i class="fab fa-gitkraken"></i></li>
+                        <li class="Log-Item"><img src="img/AdobeXD.svg" alt="Logo LinkedIn" class="Logo"></li>
+                        <li class="Log-Item"><img src="img/Eclipse.svg" alt="Logo LinkedIn" class="Logo"></li>
+                        <li class="Log-Item"><img src="img/QT.svg" alt="Logo LinkedIn" class="Logo"></li>
                     </ul>
                 </div>
                 <!-- Skills Framework -->

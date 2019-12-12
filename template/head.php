@@ -23,6 +23,7 @@
     
     <!-- Script -->
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script src="https://kit.fontawesome.com/102e53bfd3.js" crossorigin="anonymous"></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script async>
