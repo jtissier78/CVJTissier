@@ -21,7 +21,7 @@
                     <h5 class="Skills-Detail-Title">
                         <?php echo $lang['About-Content']['Skills']['Prog-Lang-Title']; ?>
                     </h5>
-                    <ul id="Prog-Langage" class="Skills-Title">
+                    <ul id="Prog-Langage" class="Skills-List">
                         <li class="Prog-Langage-Item">HTML</li>
                         <li class="Prog-Langage-Item">PHP</li>
                         <li class="Prog-Langage-Item">CSS</li>
@@ -37,12 +37,24 @@
                     <h5 class="Skills-Detail-Title">
                         <?php echo $lang['About-Content']['Skills']['Prog-Log-Title']; ?>
                     </h5>
+                    <ul id="Log" class="Skills-List">
+                        <li class="Log-Item">Visual Studio Code</li>
+                        <li class="Log-Item">GitKraken</li>
+                        <li class="Log-Item">Adobe XD</li>
+                        <li class="Log-Item">Eclipse</li>
+                        <li class="Log-Item">JGrasp</li>
+                    </ul>
                 </div>
                 <!-- Skills Framework -->
                 <div class=Skills-Detail-Bloc>
                     <h5 class="Skills-Detail-Title">
                         <?php echo $lang['About-Content']['Skills']['Prog-Frame-Title']; ?>
                     </h5>
+                    <ul id="FrameWork" class="Skills-List">
+                        <li class="Frame-Item">JQuery/JQueryUI</li>
+                        <li class="Frame-Item">Sass</li>
+                        <li class="Frame-Item">Bootstrap4</li>
+                    </ul>
                 </div>
             </div>
             <!-- Skills Others -->

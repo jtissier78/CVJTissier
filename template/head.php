@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/style.css">
     
     <!-- Script -->
-
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script async>

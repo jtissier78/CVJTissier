@@ -26,6 +26,8 @@
     <li class="BlocInfoGen-Content"><ul>
         <!-- <li><a href="" class="BlocOnfoGen-Content-Logo"><img src="" alt="Logo Facebook" class="Logo"></a></li> -->
         <li><a href="" class="BlocOnfoGen-Content-Logo"><img src="img/linkedin.svg" alt="Logo LinkedIn" class="Logo"></a></li>
+        <!-- Code pen Hover Card -->
+        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="vertical" data-theme="dark" data-vanity="jtissier-devweb"><a class="LI-simple-link" href='https://fr.linkedin.com/in/jtissier-devweb?trk=profile-badge'>Julien Tissier</a></div>
         <li><a href="" class="BlocOnfoGen-Content-Logo"><img src="img/GitHub-Mark-32px.png" alt="Logo GitHub" class="Logo"></a></li>
         <!-- <li><a href="" class="BlocOnfoGen-Content-Logo"><img src="" alt="Logo StackOverFlow" class="Logo"></a></li> -->
         <!-- <li><a href="" class="BlocOnfoGen-Content-Logo"><img src="" alt="Logo OpenClassroom" class="Logo"></a></li> -->
