@@ -12,6 +12,13 @@ Title of the page
 ----------------------------------------------------------------------------------------------------------------*/
 $lang['Page-Title']['About']="CV J.Tissier";
 /*----------------------------------------------------------------------------------------------------------------
+Header
+----------------------------------------------------------------------------------------------------------------*/
+$lang['header']['Title']="Site CV de Julien Tissier";
+$lang['header']['Sub-Title']="Developpeur Informatique sur Bourges";
+$lang['header']['Content']="Passionné de mathématiques depuis toujours, j'ai découvert la programmation durant mes années universitaires. Après quelques détours dans le monde du commerce, la volonté de créer mes propres outils informatiques, m'a emmené à chercher à aprofondir mes connaissances. C'est ainsi que je me suis retrouvé à passer le titre Developpeur Web/Web-Mobil.";
+$lang['header']['Contact']="Contactez Moi";
+/*----------------------------------------------------------------------------------------------------------------
 NavBar
 ----------------------------------------------------------------------------------------------------------------*/
 $lang['NavBar']['About']="A Propos";
@@ -40,26 +47,9 @@ $lang['GenInfo']['alt']['Logo-mail']="Logo e-mail";
 $lang['GenInfo']['alt']['Logo-phone']="Logo Telephone";
 $lang['GenInfo']['alt']['Logo-web']="Logo web";
 /*----------------------------------------------------------------------------------------------------------------
-Description
-----------------------------------------------------------------------------------------------------------------*/
-$lang['Descritpion']['About']="Voici une courte description de votre dev web.";
-$lang['Description']['Skills']="Voici une courte description de mes compétences.";
-$lang['Description']['Experience']="Voici une courte descriptin de mes experiences.";
-$lang['Description']['Contact']="Vous trouverez ici tous les éléments nécessaires pour me contacter.";
-$lang['Description']['Testi']="Vous pouvez trouver ici les avis des autres utilisateurs et laisser votre avis si vous le souhaitez.";
-$lang['Description']['PorteFolio']="Vous trouverez ici l'ensemble des projets que j'ai réaliser, sur lesquels j'ai travaillé. <br> 
-Vous pouvez ainsi examiner plus en détails les différents projets, ou acceder directement au site créer.";
-$lang['Description']['Services']="Vous trouverez ici l'ensemble des services que je vous propose.";
-/*----------------------------------------------------------------------------------------------------------------
 About Content
 ----------------------------------------------------------------------------------------------------------------*/
-$lang['About-Content']['Title']="Developpeur informatique multi-Langage.";
-$lang['About-Content']['Sub-Title']="Julien Tissier";
-/*----------------------------------------------------------------------------------------------------------------
-About Content Descritpion
-----------------------------------------------------------------------------------------------------------------*/
-$lang['About-Content']['Description']['Title']="Une rapide description de votre développeur.";
-$lang['About-Content']['Description']['Text']="<p>Passionné de mathématiques depuis toujours, j'ai découvert la programmation durant mes années universitaires. <br>Après quelques détours dans le monde du commerce, la volonté de créer mes propres outils informatiques, m'a emmené à chercher à aprofondir mes connaissances. <br>C'est ainsi que je me suis retrouvé à passer le titre Developpeur Web/Web-Mobil.<p>";
+$lang['About-Content']['Title']="Ce que vous devez savoir me concernant.";
 /*----------------------------------------------------------------------------------------------------------------
 About Content Skills
 ----------------------------------------------------------------------------------------------------------------*/

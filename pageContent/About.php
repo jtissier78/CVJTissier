@@ -3,23 +3,8 @@
     <h2 id="Content-Title">
         <?php echo $lang['About-Content']['Title'];?> 
     </h2>
-    <!-- My Name -->
-    <h1 id="Cntent-SubTitle">
-        <?php echo $lang['About-Content']['Sub-Title'];?>
-    </h1>
     <!-- Content Bloc -->
     <div id="Content-Bloc">
-        <!-- Description -->
-        <div id="Content-Description">
-            <!-- Description Title -->
-            <h3 id="Content-Description-Title"> 
-                <?php echo $lang['About-Content']['Description']['Title'];?>
-            </h3>
-            <!-- Description Content -->
-            <div id="Content-Description-Text">
-                <?php echo $lang['About-Content']['Description']['Text'];?>
-            </div>
-        </div>
         <!-- Skills -->
         <div id="Content-Skills">
             <!-- Skills Title -->
