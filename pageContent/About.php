@@ -28,7 +28,7 @@
                         <li class="Prog-Langage-Item"><img src="img/JS.svg" alt="Logo JavaScript" class="Logo"></li>
                         <li class="Prog-Langage-Item"><img src="img/JAVA.svg" alt="Logo JAVA" class="Logo"></li>
                         <li class="Prog-Langage-Item"><img src="img/C++.svg" alt="Logo C++" class="Logo"></li>
-                        <li class="Prog-Langage-Item">VBA</li>
+                        <li class="Prog-Langage-Item"><img src="img/visual-basic.svg" alt="Logo VBA" class="Logo"></li>
                         <li class="Prog-Langage-Item"><img src="img/latex.svg" alt="Logo Latex" class="Logo"></li>
                     </ul>             
                 </div>

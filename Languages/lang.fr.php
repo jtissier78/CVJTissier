@@ -14,8 +14,8 @@ $lang['Page-Title']['About']="CV J.Tissier";
 /*----------------------------------------------------------------------------------------------------------------
 Header
 ----------------------------------------------------------------------------------------------------------------*/
-$lang['header']['Title']="Site CV de Julien Tissier";
-$lang['header']['Sub-Title']="Developpeur Informatique sur Bourges";
+$lang['header']['Title']="Julien Tissier";
+$lang['header']['Sub-Title']="Developpeur Fullstack";
 $lang['header']['Content']="Passionné de mathématiques depuis toujours, j'ai découvert la programmation durant mes années universitaires. Après quelques détours dans le monde du commerce, la volonté de créer mes propres outils informatiques, m'a emmené à chercher à aprofondir mes connaissances. C'est ainsi que je me suis retrouvé à passer le titre Developpeur Web/Web-Mobil.";
 $lang['header']['Contact']="Contactez Moi";
 /*----------------------------------------------------------------------------------------------------------------

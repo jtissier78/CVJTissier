@@ -1,6 +1,77 @@
 /*sass --watch style.scss ../style.css*/
+@import url("https://fonts.googleapis.com/css?family=Roboto|Solway&display=swap");
+html {
+  color: #06214C;
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Solway", serif;
+}
+
 header {
   background-color: #8FA9D3;
+}
+header h1, header h2 {
+  margin: 0;
+  text-align: center;
+  color: #06214C;
+}
+header #Information div {
+  width: 60vw;
+  text-align: justify;
+  padding-left: 2vw;
+}
+header #Navigation {
+  display: flex;
+  padding-left: 5vw;
+}
+header #Navigation nav {
+  display: flex;
+  text-align: center;
+}
+header #Navigation nav ul {
+  margin: 0;
+  right: 100%;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+header #Navigation nav ul li {
+  margin: auto;
+}
+
+main {
+  display: flex;
+}
+main aside {
+  width: 20vw;
+}
+main #Main-Content {
+  width: 50vw;
+  margin: 0 5vw;
+}
+main #Social-Card-Bloc {
+  width: 250px;
+  right: 10px;
+}
+main #Social-Card-Bloc ul {
+  list-style: none outside none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+main #Social-Card-Bloc li {
+  display: block;
+  float: left;
+  margin-right: 6px;
+  cursor: pointer;
+  height: 400px;
+}
+main #Social-Card-Bloc .Card-Item {
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

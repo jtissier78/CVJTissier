@@ -23,14 +23,5 @@
         <!-- <img src="" alt="<?php echo $lang['GenInfo']['alt']['Logo-web'];?>" class="Logo BlocInfoGen-Content-Logo"> -->
         <div class="BlocInfoGen-Content-Texte"><span class="InfoGenerale">Mon Site web</span></div>
     </a></li>
-    <li class="BlocInfoGen-Content"><ul>
-        <li><a href="" class="BlocOnfoGen-Content-Logo"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="" class="BlocOnfoGen-Content-Logo"><img src="img/linkedin.svg" alt="Logo LinkedIn" class="Logo"></a></li>
-        <!-- Code pen Hover Card -->
-        <div class="LI-profile-badge"  data-version="v1" data-size="small" data-locale="fr_FR" data-type="vertical" data-theme="dark" data-vanity="jtissier-devweb"><a class="LI-simple-link" href='https://fr.linkedin.com/in/jtissier-devweb?trk=profile-badge'>Julien Tissier</a></div>
-        <li><a href="" class="BlocOnfoGen-Content-Logo"><i class="fab fa-github"></i></a></li>
-        <li><a href="" class="BlocOnfoGen-Content-Logo"><i class="fab fa-stack-overflow"></i></a></li>
-        <!-- <li><a href="" class="BlocOnfoGen-Content-Logo"><img src="" alt="Logo OpenClassroom" class="Logo"></a></li> -->
-        <!-- <li><a href="" class="BlocOnfoGen-Content-Logo"><img src="" alt="Logo Codeur.com" class="Logo"></a></li> -->
-    </ul></li>
+    
 </ul>
