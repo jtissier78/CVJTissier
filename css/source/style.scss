@@ -72,11 +72,42 @@ main{
     #Main-Content{
         width: 50vw;
         margin: 0 5vw;
+
+        h2, h3, h4, h5{
+            text-align: center;
+        }
+
+        .Skills-List{
+            width: 100%;
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+        }
+
+        .Lang-List{
+            width: 100%;
+            text-align: center;
+            border: medium solid $color-primary-4 ;
+            border-collapse: collapse;
+            thead{
+                tr{
+                border: medium solid $color-primary-4 ;
+                }
+            }
+            tbody{
+                tr{
+                    border: thin solid $color-primary-4 ;
+                }
+            }
+            td{
+                border: thin dotted $color-primary-4;
+            }
+        }
     }
     #Social-Card-Bloc {
         
         width: 250px;
-        right: 10px;
+        margin: 10vh 2vw;
         
         
         

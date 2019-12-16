@@ -54,11 +54,36 @@ $lang['About-Content']['Title']="Ce que vous devez savoir me concernant.";
 About Content Skills
 ----------------------------------------------------------------------------------------------------------------*/
 $lang['About-Content']['Skills']['Title']="Mes Compétences.";
-$lang['About-Content']['Skills']['Progra']="Mes compétence en informatique.";
+$lang['About-Content']['Skills']['Prog-Lang-Title']="Langages de programmation.";
+$lang['About-Content']['Skills']['Prog-Log-Title']="Logiciels";
+$lang['About-Content']['Skills']['Prog-Frame-Title']="Frameworks, librairies ... que j'utilise";
 $lang['About-Content']['Skills']['Others']="Mes autres compétences";
-$lang['About-Content']['Skills']['Prog-Lang-Title']="Mes langages de programmation.";
-$lang['About-Content']['Skills']['Prog-Log-Title']="les logiciels dont je me sers";
-$lang['About-Content']['Skills']['Prog-Frame-Title']="Les frameworks, librairies ... que j'utilise";
 $lang['About-Content']['Skills']['Others-General-Title']="Mes compétences générales";
-$lang['About-Content']['Skills']['Others-Language-Title']="Les langues que je parle";
+$lang['About-Content']['Skills']['Others-Language-Title']="Langues";
+/*----------------------------------------------------------------------------------------------------------------
+Language
+----------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------
+Language Name
+----------------------------------------------------------------------------------------------------------------*/
+$lang['Language']['Name']['French']="Français";
+$lang['Language']['Name']['English']="Anglais";
+$lang['Language']['Name']['German']="Allemand";
+$lang['Language']['Name']['Japan']="Japonnais";
+/*----------------------------------------------------------------------------------------------------------------
+Language General
+----------------------------------------------------------------------------------------------------------------*/
+$lang['Language']['Oral-Compr']="compris";
+$lang['Language']['Oral-Expre']="parlé";
+$lang['Language']['Write-Compr']="lu";
+$lang['Language']['Write-Expre']="écris";
+/*----------------------------------------------------------------------------------------------------------------
+Language level
+----------------------------------------------------------------------------------------------------------------*/
+$lang['Language']['Level']['Notions']="notions";
+$lang['Language']['Level']['School']="Scolaire";
+$lang['Language']['Level']['Correct']="Courant";
+$lang['Language']['Level']['Technique']="Technique";
+$lang['Language']['Level']['Natal']="Langue natale";
+
 $lang['About-Content']['Skills']['Others-Qualities-Title']="Mes qualité.";

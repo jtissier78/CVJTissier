@@ -13,9 +13,6 @@
             </h3>
             <!-- Skills Prog -->
             <div id="Content-Skills-Prog-Bloc" class="Skills-Bloc">
-                <h4 id="Content-Skills-Prog-Title" class=Skills-Title>
-                    <?php echo $lang['About-Content']['Skills']['Progra'];?>
-                </h4>
                 <!-- Skills Language Programmation -->
                 <div class=Skills-Detail-Bloc>
                     <h5 class="Skills-Detail-Title">
@@ -62,25 +59,60 @@
                 <h4 id=Content-Skills-Other-Title class=Skills-Title>
                     <?php echo $lang['About-Content']['Skills']['Others'];?>
                 </h4>
-                <!-- Skills General competence -->
-                <div class=Skills-Detail-Bloc>
-                    <h5 class="Skills-Detail-Title">
-                        <?php echo $lang['About-Content']['Skills']['Others-General-Title']; ?>
-                    </h5>
-                </div>
-                <!-- Skills Language -->
-                <div class=Skills-Detail-Bloc>
-                    <h5 class="Skills-Detail-Title">
-                        <?php echo $lang['About-Content']['Skills']['Others-Language-Title']; ?>
-                    </h5>
-                </div>
-                <!-- Skills Qualities -->
-                <div class=Skills-Detail-Bloc>
-                    <h5 class="Skills-Detail-Title">
-                        <?php echo $lang['About-Content']['Skills']['Others-Qualities-Title']; ?>
-                    </h5>
-                </div>
+            </div>    
+            <!-- Skills Language -->
+            <div class=Skills-Detail-Bloc>
+                <h4 class="Skills-Detail-Title">
+                    <?php echo $lang['About-Content']['Skills']['Others-Language-Title']; ?>
+                </h4>
+                <table class="Lang-List">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th><?php echo $lang['Language']['Oral-Compr']; ?></th>
+                            <th><?php echo $lang['Language']['Oral-Expre']; ?></th>
+                            <th><?php echo $lang['Language']['Write-Compr']; ?></th>
+                            <th><?php echo $lang['Language']['Write-Expre']; ?></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><?php echo $lang['Language']['Name']['French']; ?></td>
+                            <td class="Lang-Level" colspan="4"><?php echo $lang['Language']['Level']['Natal']; ?></td>
+                            
+                        </tr>
+                        <tr>
+                            <td><?php echo $lang['Language']['Name']['English']; ?></td>
+                            <td class="Lang-Level"><?php echo $lang['Language']['Level']['Technique']; ?></td>
+                            <td class="Lang-Level"><?php echo $lang['Language']['Level']['Technique']; ?></td>
+                            <td class="Lang-Level"><?php echo $lang['Language']['Level']['Technique']; ?></td>
+                            <td class="Lang-Level"><?php echo $lang['Language']['Level']['Technique']; ?></td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $lang['Language']['Name']['German']; ?></td>
+                            <td><?php echo $lang['Language']['Level']['Correct']; ?></td>
+                            <td><?php echo $lang['Language']['Level']['School']; ?></td>
+                            <td><?php echo $lang['Language']['Level']['Correct']; ?></td>
+                            <td><?php echo $lang['Language']['Level']['School']; ?></td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $lang['Language']['Name']['Japan']; ?></td>
+                            <td><?php echo $lang['Language']['Level']['Notions']; ?></td>
+                            <td><?php echo $lang['Language']['Level']['Notions']; ?></td>
+                            <td><?php echo $lang['Language']['Level']['Notions']; ?></td>
+                            <td><?php echo $lang['Language']['Level']['Notions']; ?></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
             </div>
+            <!-- Skills Qualities -->
+            <div class=Skills-Detail-Bloc>
+                <h4 class="Skills-Detail-Title">
+                    <?php echo $lang['About-Content']['Skills']['Others-Qualities-Title']; ?>
+                </h4>
+            </div>
+            
         </div>
         <!-- Portefolio -->
         <div></div>
