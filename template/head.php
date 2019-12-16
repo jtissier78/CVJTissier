@@ -35,7 +35,11 @@
         })();
     </script> <!-- Codeur.com Cards -->
 
-    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>  <!-- Jquery -->
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+    </script>  <!-- Jquery -->
     <script src="https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js" async></script>    <!-- slider -->
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script async>

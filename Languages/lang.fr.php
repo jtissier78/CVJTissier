@@ -57,12 +57,19 @@ $lang['About-Content']['Skills']['Title']="Mes Compétences.";
 $lang['About-Content']['Skills']['Prog-Lang-Title']="Langages de programmation.";
 $lang['About-Content']['Skills']['Prog-Log-Title']="Logiciels";
 $lang['About-Content']['Skills']['Prog-Frame-Title']="Frameworks, librairies ... que j'utilise";
+/*----------------------------------------------------------------------------------------------------------------
+Other skill
+----------------------------------------------------------------------------------------------------------------*/
 $lang['About-Content']['Skills']['Others']="Mes autres compétences";
-$lang['About-Content']['Skills']['Others-General-Title']="Mes compétences générales";
-$lang['About-Content']['Skills']['Others-Language-Title']="Langues";
+$lang['Other-Skills']['Agile']="Méthode Agile";
+$lang['Other-Skills']['Responsive']="Site Responsifs.";
+$lang['Other-Skills']['PreWork']="Travail préparatoire à la création d'un site.";
+$lang['Other-Skills']['POO']="Programation orientée objet";
+$lang['Other-Skills']['Learning']="Capacité d'aprentissage";
 /*----------------------------------------------------------------------------------------------------------------
 Language
 ----------------------------------------------------------------------------------------------------------------*/
+$lang['About-Content']['Skills']['Others-Language-Title']="Langues";
 /*----------------------------------------------------------------------------------------------------------------
 Language Name
 ----------------------------------------------------------------------------------------------------------------*/
@@ -85,5 +92,9 @@ $lang['Language']['Level']['School']="Scolaire";
 $lang['Language']['Level']['Correct']="Courant";
 $lang['Language']['Level']['Technique']="Technique";
 $lang['Language']['Level']['Natal']="Langue natale";
+/*----------------------------------------------------------------------------------------------------------------
+PorteFolio
+----------------------------------------------------------------------------------------------------------------*/
+$lang['PortFolio']['Title']="Mes Principales Créations";
 
-$lang['About-Content']['Skills']['Others-Qualities-Title']="Mes qualité.";
+$lang['PortFolio']['Alt-Text']['BDFilm']="Visuel du Projet BDFilm";

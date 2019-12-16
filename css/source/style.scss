@@ -62,16 +62,35 @@ header{
             }
         }
     }
+
+    .fixed-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%; 
+        background-color: $color-primary-1;
+        z-index: 10;
+        height: 5vh;
+    }
 }
 
 main{
     display: flex;
     aside{
         width: 20vw;
+        
     }
+
+    
     #Main-Content{
         width: 50vw;
         margin: 0 5vw;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 50px;
+        
+        
+        
 
         h2, h3, h4, h5{
             text-align: center;
@@ -84,6 +103,10 @@ main{
             justify-content: space-between;
         }
 
+        .Other-Skills-List{
+            list-style: none;
+            text-align: center;
+        }
         .Lang-List{
             width: 100%;
             text-align: center;
@@ -103,7 +126,18 @@ main{
                 border: thin dotted $color-primary-4;
             }
         }
+        .Main-Creat{
+            display: flex;
+            list-style: none;
+
+            img{
+                width : 20%;
+                margin: 2.5%;
+            }
+        }
     }
+
+
     #Social-Card-Bloc {
         
         width: 250px;
@@ -130,5 +164,15 @@ main{
             max-width: 100%;
         }
         
+    }
+}
+
+footer{
+    background-color: $color-primary-1;
+    height: 5vh;
+
+    .fixed-footer{
+        position: fixed;
+        top: 90vh;
     }
 }
