@@ -1,8 +1,6 @@
 <img src="" alt="<?php echo $lang['GenInfo']['alt']['Photo'];?>" >
 <ul id="GenInfo-bloc">
-    <li class="BlocInfoGen-Content">
-        <div class="BlocInfoGen-Content-Texte"><?php echo $lang['GenInfo']['Name']; ?> : <span class="InfoGenerale">Julien Tissier</span></div>
-    </li>
+    
     <li class="BlocInfoGen-Content Localisation" >
         <!-- <img src="" alt="<?php /* echo $lang['GenInfo']['alt']['Logo-Local']; */?>" class="Logo BlocInfoGen-Content-Logo"> -->
         <div class="BlocInfoGen-Content-Texte"><?php echo $lang['GenInfo']['Local']; ?> : <span class="InfoGenerale">Bourges (18) <span class="italique">France</span></span></div>

@@ -16,6 +16,8 @@ $heightpage:82vh;
 html{
     color: $color-primary-4;
     font-family: $text-font;
+    background-color: $background-color;
+    z-index: 0;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -26,25 +28,33 @@ h1, h2, h3, h4, h5, h6{
 
 
 header{
-    background-color: $color-primary-1;
-
+    
+    
     h1, h2{
         margin: 0;
         text-align: center;
-        color: $color-primary-4;
+        /* color: $color-primary-4; */
     }
     #Information{
-        
-        div{
-            width:60vw;
+        display: flex;
+        .Side-Block{
+            width: 20vw;
+            text-align: center;
+            margin: auto;
+        }
+        .Center-Block{
+            width: 50vw;
+            margin: 0 5vw;
             text-align: justify;
-            padding-left: 2vw;
         }
     }
 
     #Navigation{
+        background-color: $color-primary-4;
         display: flex;
         padding-left: 5vw;
+        color: $background-color;
+        align-items: center;
         nav{
             display: flex;
             text-align: center;
@@ -58,6 +68,11 @@ header{
 
                 li{
                     margin: auto;
+
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
                 }
             }
         }
@@ -78,25 +93,29 @@ main{
     display: flex;
     aside{
         width: 20vw;
-        
+        background-color: $color-primary-1 ;
+        height: 95vh;
+        z-index: -99;
+        padding-top: 5vh;
     }
-
+    .fixed-aside{
+        position: fixed;
+        top: 5vh;
+        padding-top: 20vh;
+    }
+    
     
     #Main-Content{
+        background-color: $background-color;
         width: 50vw;
         margin: 0 5vw;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 50px;
         
-        
-        
-
         h2, h3, h4, h5{
             text-align: center;
         }
 
         .Skills-List{
+            padding-left: 0;
             width: 100%;
             display: flex;
             list-style: none;
@@ -137,14 +156,14 @@ main{
         }
     }
 
+    .fixed-main{
+        position: relative;
+        left: 20vw;
+    }
 
     #Social-Card-Bloc {
         
-        width: 250px;
-        margin: 10vh 2vw;
-        
-        
-        
+
         ul {
             list-style: none outside none;
             padding-left: 0;
@@ -159,20 +178,26 @@ main{
             height: 400px;
         }
         .Card-Item {
+            
             display: block;
             height: auto;
-            max-width: 100%;
+            width: 100%;
         }
         
+    }
+
+    .fixed-card{
+        right :0vw;
     }
 }
 
 footer{
-    background-color: $color-primary-1;
+    background-color: $color-primary-4;
+    color: $background-color;
     height: 5vh;
-
-    .fixed-footer{
-        position: fixed;
-        top: 90vh;
-    }
+    z-index: 10;
+    width: 100vw;
+    align-items: center;
 }
+
+

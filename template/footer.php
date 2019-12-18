@@ -1,3 +1,3 @@
 <footer id="main-footer">
-    Ceci est le pied de page
+    <p>Ceci est le pied de page</p>
 </footer>

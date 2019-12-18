@@ -16,8 +16,9 @@ Header
 ----------------------------------------------------------------------------------------------------------------*/
 $lang['header']['Title']="Julien Tissier";
 $lang['header']['Sub-Title']="Developpeur Fullstack";
-$lang['header']['Content']="Passionné de mathématiques depuis toujours, j'ai découvert la programmation durant mes années universitaires. Après quelques détours dans le monde du commerce, la volonté de créer mes propres outils informatiques, m'a emmené à chercher à aprofondir mes connaissances. C'est ainsi que je me suis retrouvé à passer le titre Developpeur Web/Web-Mobil.";
-$lang['header']['Contact']="Contactez Moi";
+$lang['header']['Content']="Passionné de mathématiques depuis toujours, j'ai découvert la programmation durant mes années universitaires. Lors de mes expériences dans le monde du commerce, j'ai créé mon propre outil informatique de gestion de stock. Après ce détour, j'ai souhaité approfondir mes connaissances en développement informatique. Pour ce faire j'ai choisi d'intégrer la formation de Developpeur Web/Web-Mobile niveau 5 labelisée GEN.";
+$lang['header']['CV']['Download']="Télécharger mon CV";
+$lang['header']['CV']['Print']="Imprimer mon CV";
 /*----------------------------------------------------------------------------------------------------------------
 NavBar
 ----------------------------------------------------------------------------------------------------------------*/

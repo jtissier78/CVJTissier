@@ -1,10 +1,16 @@
 <header>
     <div id="Information">
-        <h1><?php echo $lang['header']['Title'] ?></h1>
-        <h2><?php echo $lang['header']['Sub-Title'];?></h2>
-        <div>
+        <div class="Side-Block">
+            <h1><?php echo $lang['header']['Title'] ?></h1>
+            <h2><?php echo $lang['header']['Sub-Title'];?></h2></div>
+        <div class="Center-Block">
             <p><?php echo $lang['header']['Content'];?></p>
-            <p><?php echo $lang['header']['Contact'];?></p>
+        </div>
+        
+        <div class="Side-Block">
+            
+            <p><?php echo $lang['header']['CV']['Download'];?></p>
+            <p><?php echo $lang['header']['CV']['Print'];?></p>
         </div>
     </div>
     <div id="Navigation">
