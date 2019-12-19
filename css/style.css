@@ -1,3 +1,167 @@
 /*sass --watch style.scss ../style.css*/
+@import url("https://fonts.googleapis.com/css?family=Roboto|Solway&display=swap");
+html {
+  color: #06214C;
+  font-family: "Roboto", sans-serif;
+  background-color: #fbfdff;
+  z-index: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Solway", serif;
+}
+
+header h1, header h2 {
+  margin: 0;
+  text-align: center;
+  /* color: $color-primary-4; */
+}
+header #Information {
+  display: flex;
+}
+header #Information .Side-Block {
+  width: 20vw;
+  text-align: center;
+  margin: auto;
+}
+header #Information .Center-Block {
+  width: 50vw;
+  margin: 0 5vw;
+  text-align: justify;
+}
+header #Navigation {
+  background-color: #06214C;
+  display: flex;
+  padding-left: 5vw;
+  color: #fbfdff;
+  align-items: center;
+}
+header #Navigation nav {
+  display: flex;
+  text-align: center;
+}
+header #Navigation nav ul {
+  margin: 0;
+  right: 100%;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+header #Navigation nav ul li {
+  margin: auto;
+}
+header #Navigation nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+header .fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #8FA9D3;
+  z-index: 10;
+  height: 5vh;
+}
+
+main {
+  display: flex;
+}
+main aside {
+  width: 20vw;
+  background-color: #8FA9D3;
+  height: 95vh;
+  z-index: -99;
+  padding-top: 5vh;
+}
+main .fixed-aside {
+  position: fixed;
+  top: 5vh;
+  padding-top: 20vh;
+}
+main #Main-Content {
+  background-color: #fbfdff;
+  width: 50vw;
+  margin: 0 5vw;
+}
+main #Main-Content h2, main #Main-Content h3, main #Main-Content h4, main #Main-Content h5 {
+  text-align: center;
+}
+main #Main-Content .Skills-List {
+  padding-left: 0;
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+main #Main-Content .Other-Skills-List {
+  list-style: none;
+  text-align: center;
+}
+main #Main-Content .Lang-List {
+  width: 100%;
+  text-align: center;
+  border: medium solid #06214C;
+  border-collapse: collapse;
+}
+main #Main-Content .Lang-List thead tr {
+  border: medium solid #06214C;
+}
+main #Main-Content .Lang-List tbody tr {
+  border: thin solid #06214C;
+}
+main #Main-Content .Lang-List td {
+  border: thin dotted #06214C;
+}
+main #Main-Content .Main-Creat {
+  display: flex;
+  list-style: none;
+}
+main #Main-Content .Main-Creat img {
+  width: 20%;
+  margin: 2.5%;
+}
+main .fixed-main {
+  position: relative;
+  left: 20vw;
+}
+main #Social-Card-Bloc ul {
+  list-style: none outside none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+main #Social-Card-Bloc li {
+  display: block;
+  float: left;
+  margin-right: 6px;
+  cursor: pointer;
+  height: 400px;
+}
+main #Social-Card-Bloc .Card-Item {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+main .fixed-card {
+  right: 0vw;
+}
+main #marge-bottom {
+  height: 5vh;
+}
+
+footer {
+  background-color: #06214C;
+  color: #fbfdff;
+  height: 5vh;
+  z-index: 10;
+  width: 100%;
+  align-items: center;
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0vh;
+}
 
 /*# sourceMappingURL=style.css.map */
