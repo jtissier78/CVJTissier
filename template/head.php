@@ -19,17 +19,37 @@
     <!-- StyleSheet -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://sachinchoolur.github.io/lightslider/dist/css/lightslider.css">
     <link rel="stylesheet" href="css/style.css">
     
     <!-- Script -->
+    <script src="https://kit.fontawesome.com/102e53bfd3.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" defer></script>   <!-- Linkedin Card Script -->
+    <script>    
+        (function() {
+            var script   = document.createElement('script');
+            script.src   = '//api.codeur.com/widgets/profile.js?k=1Z6j8MHlVQe3s4pm';
+            script.async = true;
+            var entry = document.getElementsByTagName('script')[0];
+            entry.parentNode.insertBefore(script, entry);
+        })();
+    </script> <!-- Codeur.com Cards -->
 
-
+    <script 
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+    </script>  <!-- Jquery -->
+    <script src="https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js" async></script>    <!-- slider -->
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script async>
         window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
         ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
     </script>
     <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <script src="js/main.js" async></script>
+
+    
     
     <!-- Title -->
     <title><?php echo $lang['Site-Title'];?> </title>
