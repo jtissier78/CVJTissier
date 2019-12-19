@@ -189,6 +189,10 @@ main{
     .fixed-card{
         right :0vw;
     }
+
+    #marge-bottom{
+        height: 5vh;
+    }
 }
 
 footer{
@@ -196,8 +200,11 @@ footer{
     color: $background-color;
     height: 5vh;
     z-index: 10;
-    width: 100vw;
+    width: 100%;
     align-items: center;
 }
 
-
+.fixed-footer{
+    position: fixed;
+    bottom: 0vh;
+}

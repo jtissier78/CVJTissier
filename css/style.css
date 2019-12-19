@@ -146,14 +146,22 @@ main #Social-Card-Bloc .Card-Item {
 main .fixed-card {
   right: 0vw;
 }
+main #marge-bottom {
+  height: 5vh;
+}
 
 footer {
   background-color: #06214C;
   color: #fbfdff;
   height: 5vh;
   z-index: 10;
-  width: 100vw;
+  width: 100%;
   align-items: center;
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0vh;
 }
 
 /*# sourceMappingURL=style.css.map */

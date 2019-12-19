@@ -9,8 +9,8 @@
         
         <div class="Side-Block">
             
-            <p><?php echo $lang['header']['CV']['Download'];?></p>
-            <p><?php echo $lang['header']['CV']['Print'];?></p>
+            <p id="download"><a href="docs/CV_Dev J. Tissier.pdf" download="CV JTissier" ><?php echo $lang['header']['CV']['Download'];?></a></p>
+            <p id="print"><?php /* echo $lang['header']['CV']['Print']; */?></p>
         </div>
     </div>
     <div id="Navigation">

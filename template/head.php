@@ -23,8 +23,8 @@
     <link rel="stylesheet" href="css/style.css">
     
     <!-- Script -->
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>   <!-- Linkedin Card Script -->
     <script src="https://kit.fontawesome.com/102e53bfd3.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" defer></script>   <!-- Linkedin Card Script -->
     <script>    
         (function() {
             var script   = document.createElement('script');
@@ -35,7 +35,7 @@
         })();
     </script> <!-- Codeur.com Cards -->
 
-    <script
+    <script 
         src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
         crossorigin="anonymous">
